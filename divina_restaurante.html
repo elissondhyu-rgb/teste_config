@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divina Restaurante do Getúlio | Sabor e Qualidade em Sapucaia do Sul</title>
+  <meta name="description" content="Sabor caseiro, acolhimento e tradição no Divina Restaurante do Getúlio. Buffet livre das 10:30 às 14:15 e delivery em Sapucaia do Sul. Faça seu pedido online ou pelo WhatsApp!">
+  <meta name="keywords" content="Divina Restaurante, Restaurante do Getulio, Sapucaia do Sul, Buffet livre, Marmita Sapucaia, Almoço caseiro, Delivery de comida Sapucaia, Pizza e Restaurante">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Divina Restaurante do Getúlio">
+  <meta name="theme-color" content="#113F27">
+
+  <!-- Google tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E2S3W3FYLD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-E2S3W3FYLD');
+  </script>
+
+  <!-- SEO Open Graph (Facebook, WhatsApp, LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Divina Restaurante do Getúlio | Sabor Caseiro & Buffet Livre">
+  <meta property="og:description" content="Sabor caseiro, buffet livre diário e marmitas de 1kg em Sapucaia do Sul. Peça online ou visite-nos!">
+  <meta property="og:image" content="Logo.png">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Divina Restaurante do Getúlio">
+
+  <!-- SEO Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Divina Restaurante do Getúlio | Sapucaia do Sul">
+  <meta name="twitter:description" content="Buffet livre e delivery de refeições caseiras com o verdadeiro tempero gaúcho. Peça já!">
+  <meta name="twitter:image" content="Logo.png">
+
+  <!-- SEO JSON-LD Structured Data (Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Divina Restaurante do Getúlio",
+    "image": "Logo.png",
+    "description": "Restaurante com buffet livre presencial, refeições caseiras e delivery de marmitas em Sapucaia do Sul.",
+    "telephone": "+5551996445060",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Independência, 600 - Bairro Santa Catarina",
+      "addressLocality": "Sapucaia do Sul",
+      "addressRegion": "RS",
+      "postalCode": "93210-000",
+      "addressCountry": "BR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -29.8333,
+      "longitude": -51.1500
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "10:30",
+      "closes": "14:15"
+    },
+    "servesCuisine": [
+      "Comida Caseira",
+      "Buffet Livre",
+      "Grelhados",
+      "Marmitas"
+    ],
+    "hasMenu": "https://app.anotai.ai/m/POaMxCokcw",
+    "sameAs": [
+      "https://www.instagram.com/divinarestauranters",
+      "https://www.facebook.com/p/Divina-Pizza-Restaurante-61586354276244/"
+    ]
+  }
+  </script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    :root {
+      --primary: #113F27;
+      --primary-dark: #0A2919;
+      --accent: #E08738;
+      --accent-hover: #C67228;
+      --bg-light: #FAFAF7;
+      --bg-card: #FFFFFF;
+      --text-dark: #1F2937;
+      --text-muted: #4B5563;
+      --whatsapp: #25D366;
+      --whatsapp-dark: #1EBE5D;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg-light);
+      color: var(--text-dark);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      background: rgba(255, 255, 255, 0.98);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+      z-index: 1000;
+      padding: 0.8rem 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+
+    .logo-img {
+      height: 52px;
+      width: 52px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid var(--accent);
+      box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+    }
+
+    .logo-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo-title {
+      font-weight: 800;
+      color: var(--primary-dark);
+      font-size: 1.1rem;
+      line-height: 1.1;
+    }
+
+    .logo-subtitle {
+      font-size: 0.75rem;
+      color: var(--accent);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      align-items: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--text-dark);
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    .header-social {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-left: 10px;
+    }
+
+    .social-icon-btn {
+      color: var(--primary);
+      font-size: 1.2rem;
+      transition: color 0.3s, transform 0.3s;
+      text-decoration: none;
+    }
+
+    .social-icon-btn:hover {
+      color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .btn-header-site {
+      background: var(--accent);
+      color: #FFF;
+      padding: 0.6rem 1.2rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.9rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(224, 135, 56, 0.3);
+      position: relative;
+    }
+
+    .btn-header-site:hover {
+      background: var(--accent-hover);
+      transform: translateY(-2px);
+    }
+
+    .menu-toggle {
+      display: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: var(--primary);
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      align-items: center;
+      padding: 4rem 5%;
+      gap: 3rem;
+      background: linear-gradient(135deg, #113F27 0%, #0A2919 100%);
+      color: #FFF;
+      position: relative;
+      overflow: hidden;
+      min-height: 80vh;
+    }
+
+    .hero-content {
+      flex: 1;
+      z-index: 2;
+    }
+
+    .hero-content h1 {
+      font-size: 3rem;
+      line-height: 1.15;
+      margin-bottom: 1.2rem;
+      color: #FFF;
+    }
+
+    .hero-content p {
+      font-size: 1.15rem;
+      color: #E5E7EB;
+      margin-bottom: 2rem;
+      max-width: 580px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #FFF;
+      padding: 0.9rem 1.8rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      transition: all 0.3s ease;
+      box-shadow: 0 6px 20px rgba(224, 135, 56, 0.4);
+      position: relative;
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-hover);
+      transform: translateY(-2px);
+    }
+
+    .btn-whats {
+      background: var(--whatsapp);
+      color: #FFF;
+      padding: 0.9rem 1.8rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      transition: all 0.3s ease;
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.3);
+    }
+
+    .btn-whats:hover {
+      background: var(--whatsapp-dark);
+      transform: translateY(-2px);
+    }
+
+    .hero-image {
+      flex: 1;
+      position: relative;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+    }
+
+    .marmita-card {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(8px);
+      border-radius: 24px;
+      padding: 16px;
+      width: 100%;
+      max-width: 440px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+      text-align: left;
+    }
+
+    .marmita-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 16px;
+      display: block;
+    }
+
+    .marmita-card-body {
+      padding: 16px 8px 8px 8px;
+    }
+
+    .marmita-card-body h3 {
+      font-size: 1.6rem;
+      color: #FFFFFF;
+      margin-bottom: 6px;
+      font-weight: 700;
+    }
+
+    .marmita-card-body p {
+      font-size: 0.95rem;
+      color: #D1D5DB;
+      margin: 0;
+      line-height: 1.4;
+    }
+
+    .info-bar {
+      background: #FFF;
+      padding: 2rem 5%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      position: relative;
+      z-index: 10;
+      margin-top: -30px;
+      border-radius: 16px;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .info-item {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .info-icon {
+      width: 50px;
+      height: 50px;
+      background: #F3F4F6;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--primary);
+      font-size: 1.3rem;
+    }
+
+    .info-text h4 {
+      font-size: 0.95rem;
+      color: var(--text-dark);
+      margin-bottom: 2px;
+    }
+
+    .info-text p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    section {
+      padding: 4.5rem 5%;
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 2.5rem auto;
+    }
+
+    .section-subtitle {
+      color: var(--accent);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      font-size: 0.85rem;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    .section-title {
+      font-size: 2.3rem;
+      color: var(--primary-dark);
+    }
+
+    .about-container {
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .about-text {
+      flex: 1;
+    }
+
+    .about-text p {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      line-height: 1.8;
+    }
+
+    .about-features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .about-image {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .about-image img {
+      width: auto;
+      max-width: 100%;
+      max-height: 480px;
+      object-fit: contain;
+      border-radius: 20px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+      display: block;
+    }
+
+    .carousel-section {
+      background: #FFF;
+    }
+
+    .carousel-wrapper {
+      position: relative;
+      width: 100%;
+      max-width: 850px;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 20px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+      background-color: #0A2919;
+    }
+
+    .carousel-track {
+      display: flex;
+      width: 100%;
+      transition: transform 0.4s ease-in-out;
+    }
+
+    .carousel-slide {
+      min-width: 100%;
+      width: 100%;
+      flex: 0 0 100%;
+      position: relative;
+      box-sizing: border-box;
+      overflow: hidden;
+      background-color: #0A2919;
+    }
+
+    .carousel-slide img {
+      width: 100%;
+      height: 480px;
+      object-fit: cover;
+      background-color: #0A2919;
+      display: block;
+    }
+
+    .carousel-slide img.fit-contain {
+      object-fit: contain;
+    }
+
+    .carousel-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(transparent, rgba(0,0,0,0.92));
+      color: #FFF;
+      padding: 2.5rem 1.8rem 1.5rem 1.8rem;
+    }
+
+    .carousel-caption h3 {
+      font-size: 1.4rem;
+      margin-bottom: 0.3rem;
+      color: #FFF;
+    }
+
+    .carousel-caption p {
+      font-size: 0.95rem;
+      color: #E5E7EB;
+    }
+
+    .carousel-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255,255,255,0.92);
+      color: var(--primary);
+      border: none;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1.1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      z-index: 10;
+      transition: all 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .carousel-btn:hover {
+      background: var(--primary);
+      color: #FFF;
+    }
+
+    .carousel-btn.prev { left: 15px; }
+    .carousel-btn.next { right: 15px; }
+
+    .carousel-dots {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 1.5rem;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      background: #D1D5DB;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .dot.active {
+      background: var(--accent);
+      width: 26px;
+      border-radius: 10px;
+    }
+
+    .order-section {
+      background: var(--bg-light);
+    }
+
+    .order-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      max-width: 950px;
+      margin: 0 auto;
+    }
+
+    .order-card {
+      background: #FFF;
+      border-radius: 20px;
+      padding: 2.5rem 2rem;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      border: 2px solid transparent;
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .order-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--accent);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    }
+
+    .order-card-icon {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin: 0 auto 1.5rem auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+    }
+
+    .card-site .order-card-icon {
+      background: #FEF3C7;
+      color: var(--accent);
+    }
+
+    .card-whats .order-card-icon {
+      background: #D1FAE5;
+      color: var(--whatsapp);
+    }
+
+    .order-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.8rem;
+      color: var(--primary-dark);
+    }
+
+    .order-card p {
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+      font-size: 0.95rem;
+    }
+
+    .testimonials-section {
+      background: #FFF;
+    }
+
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .testimonial-card {
+      background: var(--bg-light);
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+      position: relative;
+    }
+
+    .stars {
+      color: #F59E0B;
+      margin-bottom: 1rem;
+    }
+
+    .testimonial-text {
+      font-style: italic;
+      color: var(--text-dark);
+      margin-bottom: 1.2rem;
+      font-size: 0.95rem;
+    }
+
+    .testimonial-author {
+      font-weight: 700;
+      color: var(--primary-dark);
+      font-size: 0.95rem;
+    }
+
+    .testimonial-tag {
+      font-size: 0.8rem;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .location-section {
+      background: var(--bg-light);
+    }
+
+    .location-container {
+      display: flex;
+      gap: 3rem;
+      max-width: 1100px;
+      margin: 0 auto;
+      align-items: center;
+    }
+
+    .location-info {
+      flex: 1;
+    }
+
+    .location-card {
+      background: #FFF;
+      padding: 1.8rem;
+      border-radius: 16px;
+      border-left: 5px solid var(--primary);
+      margin-bottom: 1.2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    }
+
+    .location-card h4 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--primary-dark);
+      font-size: 1.05rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .location-card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .location-image {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    .location-image img {
+      width: 100%;
+      max-width: 420px;
+      max-height: 350px;
+      object-fit: contain;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      background: #FFF;
+      padding: 10px;
+    }
+
+    .cta-banner {
+      background: linear-gradient(135deg, var(--accent) 0%, #C67228 100%);
+      color: #FFF;
+      text-align: center;
+      padding: 3.5rem 5%;
+      border-radius: 24px;
+      max-width: 1100px;
+      margin: 0 auto 4rem auto;
+      box-shadow: 0 15px 35px rgba(224, 135, 56, 0.3);
+    }
+
+    .cta-banner h2 {
+      font-size: 2.3rem;
+      margin-bottom: 1rem;
+      color: #FFF;
+    }
+
+    .cta-banner p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      opacity: 0.95;
+    }
+
+    .cta-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-white {
+      background: #FFF;
+      color: var(--accent-hover);
+      padding: 0.9rem 1.8rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: all 0.3s;
+      position: relative;
+    }
+
+    .btn-white:hover {
+      background: var(--bg-light);
+      transform: translateY(-2px);
+    }
+
+    footer {
+      background: var(--primary-dark);
+      color: #9CA3AF;
+      padding: 4rem 5% 2rem 5%;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2.5rem;
+      max-width: 1100px;
+      margin: 0 auto 3rem auto;
+    }
+
+    .footer-col h4 {
+      color: #FFF;
+      font-size: 1.1rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .footer-col ul {
+      list-style: none;
+    }
+
+    .footer-col ul li {
+      margin-bottom: 0.6rem;
+    }
+
+    .footer-col a {
+      color: #9CA3AF;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .footer-col a:hover {
+      color: var(--accent);
+    }
+
+    .footer-bottom {
+      text-align: center;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      padding-top: 2rem;
+      font-size: 0.85rem;
+    }
+
+    /* OUTSIDE OPERATING HOURS STYLING */
+    .online-order-btn.order-disabled {
+      background: #9CA3AF !important;
+      color: #E5E7EB !important;
+      box-shadow: none !important;
+      cursor: not-allowed !important;
+      opacity: 0.8;
+      border-color: #9CA3AF !important;
+    }
+
+    .online-order-btn.order-disabled:hover {
+      transform: none !important;
+      background: #6B7280 !important;
+    }
+
+    /* Toast Notification for blocked click */
+    .toast-notification {
+      position: fixed;
+      top: 80px;
+      right: 20px;
+      background: #113F27;
+      color: #FFF;
+      padding: 12px 20px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+      border-left: 4px solid var(--accent);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.9rem;
+      transform: translateY(-20px);
+      opacity: 0;
+      transition: all 0.3s ease;
+      pointer-events: none;
+    }
+
+    .toast-notification.active {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 3rem;
+      }
+
+      .hero-content h1 {
+        font-size: 2.2rem;
+      }
+
+      .hero-buttons {
+        justify-content: center;
+      }
+
+      .about-container, .location-container {
+        flex-direction: column;
+      }
+
+      nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #FFF;
+        padding: 1.5rem;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      }
+
+      nav.active {
+        display: block;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+      }
+
+      .menu-toggle {
+        display: block;
+      }
+
+      .carousel-slide img {
+        height: 340px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toastMessage">
+    <i class="fa-solid fa-triangle-exclamation" style="color: var(--accent);"></i>
+    <span>Fora do horário de atendimento (10:30 às 14:15). Pedidos online bloqueados.</span>
+  </div>
+
+  <header>
+    <a href="#inicio" class="logo-container" aria-label="Divina Restaurante do Getúlio - Página inicial">
+      <img src="Logo.png" alt="Logo Divina Pizza e Restaurante do Getúlio" class="logo-img" onerror="this.onerror=null; this.src='Logo.jpg';">
+      <div class="logo-text">
+        <span class="logo-title">Divina</span>
+        <span class="logo-subtitle">Pizza & Restaurante do Getúlio</span>
+      </div>
+    </a>
+
+    <nav id="navbar">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Nosso Restaurante</a></li>
+        <li><a href="#pratos">Pratos</a></li>
+        <li><a href="#pedir">Como Pedir</a></li>
+        <li><a href="#depoimentos">Avaliações</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+        <li class="header-social">
+          <a href="https://www.instagram.com/divinarestauranters" target="_blank" aria-label="Instagram do Divina Restaurante" class="social-icon-btn"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/p/Divina-Pizza-Restaurante-61586354276244/" target="_blank" aria-label="Facebook do Divina Restaurante" class="social-icon-btn"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a href="https://l.instagram.com/?u=https%3A%2F%2Fapp.anota.ai%2Fm%2FPOaMxCokw%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadEYx14jKCcEPh33y-NbT8wxIEY_wzAaHTau6s0nML3E-zT4j4mxyPCadvIgQ_aem_GiFsozlT6hXEf_F03YeYnA%26utm_id%3D97760_v0_s00_e0_tv3&e=AUBoJi5LjwKGb_Sdo-HCPJzuyoct87itFTIv4JVeaT-jCCT5ntFkMbdNeVqFqyW_5OP6UtQCR7sfvKXOvTQfiHRqryiZsEGoiWIrLuOcWJdnoiKZiTuXMwbHBObqvo1WanPm74A" target="_blank" class="btn-header-site online-order-btn">
+        <i class="fa-solid fa-cart-shopping"></i> Fazer pedido online
+      </a>
+      <div class="menu-toggle" id="menuToggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>Sabor que acolhe, qualidade que conquista</h1>
+      <p>Bife suculento, batatas crocantes e acompanhamentos fresquinhos para o seu almoço ser inesquecível.</p>
+      
+      <div class="hero-buttons">
+        <a href="https://l.instagram.com/?u=https%3A%2F%2Fapp.anota.ai%2Fm%2FPOaMxCokw%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadEYx14jKCcEPh33y-NbT8wxIEY_wzAaHTau6s0nML3E-zT4j4mxyPCadvIgQ_aem_GiFsozlT6hXEf_F03YeYnA%26utm_id%3D97760_v0_s00_e0_tv3&e=AUBoJi5LjwKGb_Sdo-HCPJzuyoct87itFTIv4JVeaT-jCCT5ntFkMbdNeVqFqyW_5OP6UtQCR7sfvKXOvTQfiHRqryiZsEGoiWIrLuOcWJdnoiKZiTuXMwbHBObqvo1WanPm74A" target="_blank" class="btn-primary online-order-btn">
+          <i class="fa-solid fa-utensils"></i> Fazer pedido online
+        </a>
+        <a href="https://wa.me/5551996445060?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido%20no%20Divina%20Restaurante%20do%20Get%C3%BAlio." target="_blank" class="btn-whats">
+          <i class="fa-brands fa-whatsapp"></i> Pedir pelo WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="marmita-card">
+        <img src="Marmita 1kg.png" alt="Marmita Especial de 1kg Divina Restaurante" onerror="this.onerror=null; this.src='Marmita 1kg.jpg';">
+        <div class="marmita-card-body">
+          <h3>Marmita Especial de 1kg</h3>
+          <p>Bife suculento, batatas crocantes e acompanhamentos fresquinhos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="info-bar">
+    <div class="info-item">
+      <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+      <div class="info-text">
+        <h4>Buffet Livre</h4>
+        <p>Das 10:30 às 14:15</p>
+      </div>
+    </div>
+    <div class="info-item">
+      <div class="info-icon"><i class="fa-solid fa-motorcycle"></i></div>
+      <div class="info-text">
+        <h4>Delivery Rápido</h4>
+        <p>Sapucaia do Sul e região</p>
+      </div>
+    </div>
+    <div class="info-item">
+      <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+      <div class="info-text">
+        <h4>Rua Independência, 600</h4>
+        <p>Bairro Santa Catarina</p>
+      </div>
+    </div>
+  </div>
+
+  <section id="sobre">
+    <div class="about-container">
+      <div class="about-text">
+        <span class="section-subtitle">Conheça Nossa História</span>
+        <h2 class="section-title">Comida caseira feita com carinho e tradição</h2>
+        <p>No <strong>Divina Restaurante do Getúlio</strong>, cada refeição é preparada com cuidado especial para proporcionar o verdadeiro sabor da comida caseira. Selecionamos os melhores ingredientes diariamente para levar qualidade e fartura à sua mesa.</p>
+        <p>Seja para saborear nosso buffet livre presencialmente ou receber uma marmita bem servida na sua casa, garantimos um atendimento acolhedor e comida quentinha.</p>
+        
+        <div class="about-features">
+          <div class="feature-item"><i class="fa-solid fa-circle-check"></i> Ingredientes Selecionados</div>
+          <div class="feature-item"><i class="fa-solid fa-circle-check"></i> Marmitas de 1kg</div>
+          <div class="feature-item"><i class="fa-solid fa-circle-check"></i> Entrega Rápida</div>
+          <div class="feature-item"><i class="fa-solid fa-circle-check"></i> Atendimento Amigável</div>
+        </div>
+      </div>
+      <div class="about-image">
+        <img src="buffetlivre.jpg" alt="Buffet Livre Divina Restaurante do Getúlio" onerror="this.onerror=null; this.src='buffetlivre.png';">
+      </div>
+    </div>
+  </section>
+
+  <section id="pratos" class="carousel-section">
+    <div class="section-header">
+      <span class="section-subtitle">Nosso Cardápio</span>
+      <h2 class="section-title">Sabores que dão água na boca</h2>
+    </div>
+
+    <div class="carousel-wrapper">
+      <button class="carousel-btn prev" id="prevBtn" aria-label="Slide anterior"><i class="fa-solid fa-chevron-left"></i></button>
+      <button class="carousel-btn next" id="nextBtn" aria-label="Próximo slide"><i class="fa-solid fa-chevron-right"></i></button>
+      
+      <div class="carousel-track" id="track">
+        <!-- Slide 1: Imagem6.jpg / .png -->
+        <div class="carousel-slide">
+          <img src="Imagem6.jpg" alt="Bife Acebolado com Batata Chips Crocante" onerror="this.onerror=null; this.src='Imagem6.png';">
+          <div class="carousel-caption">
+            <h3>Bife Acebolado com Batata Chips</h3>
+            <p>Combinação perfeita de carnes macias e chips artesanais.</p>
+          </div>
+        </div>
+        <!-- Slide 2: Imagem7.jpg / .png -->
+        <div class="carousel-slide">
+          <img src="Imagem7.jpg" alt="Prato saboroso - Frango com cubos de polenta e bolinho de arroz" onerror="this.onerror=null; this.src='Imagem7.png';">
+          <div class="carousel-caption">
+            <h3>Frango com cubos de polenta e bolinho de arroz</h3>
+            <p>Variedades no buffet de dar água na boca.</p>
+          </div>
+        </div>
+        <!-- Slide 3: Imagem4.jpg / .png -->
+        <div class="carousel-slide">
+          <img src="Imagem4.jpg" alt="Opções de Filé de Frango Grelhado com Salada" onerror="this.onerror=null; this.src='Imagem4.png';">
+          <div class="carousel-caption">
+            <h3>Opções de Filé de Frango Grelhado</h3>
+            <p>Filés de frango macios e suculentos acompanhados de maionese caseira e salada.</p>
+          </div>
+        </div>
+        <!-- Slide 4: Imagem15.jpg / .png -->
+        <div class="carousel-slide">
+          <img src="Imagem15.jpg" class="fit-contain" alt="Marmitas com Frango Crocante e Acompanhamentos Fartos" onerror="this.onerror=null; this.src='Imagem15.png';">
+          <div class="carousel-caption">
+            <h3>Marmita Especial com Frango e Acompanhamentos</h3>
+            <p>Refeição farta com frango temperado, batatas e acompanhamentos caprichados.</p>
+          </div>
+        </div>
+        <!-- Slide 5: Imagem5.jpg / .png -->
+        <div class="carousel-slide">
+          <img src="Imagem5.jpg" alt="Bife Acebolado Tradicional e Quentinho" onerror="this.onerror=null; this.src='Imagem5.png';">
+          <div class="carousel-caption">
+            <h3>Bife Acebolado Tradicional</h3>
+            <p>Acebolado bem temperado e quentinho, perfeito para a hora do almoço.</p>
+          </div>
+        </div>
+        <!-- Slide 6: Comidas1.jpg / .png -->
+        <div class="carousel-slide">
+          <img src="Comidas1.jpg" class="fit-contain" alt="Variedade de Combos, Marmitas e Buffet Divina Restaurante" onerror="this.onerror=null; this.src='Comidas1.png';">
+          <div class="carousel-caption">
+            <h3>Variedade de Combos e Marmitas</h3>
+            <p>Combos com refrigerante, marmitas de 1kg e buffet completo para satisfazer toda a família.</p>
+          </div>
+        </div>
+        <!-- Slide 7: Imagem16.png / .jpg -->
+        <div class="carousel-slide">
+          <img src="Imagem16.png" class="fit-contain" alt="Prato Especial Divina Restaurante" onerror="this.onerror=null; this.src='Imagem16.jpg';">
+        </div>
+        <!-- Slide 8: Imagem17.png / .jpg -->
+        <div class="carousel-slide">
+          <img src="Imagem17.png" class="fit-contain" alt="Buffet Quente e Acompanhamentos Variados" onerror="this.onerror=null; this.src='Imagem17.jpg';">
+          <div class="carousel-caption">
+            <h3>Buffet Quente e Acompanhamentos</h3>
+            <p>Massas, farofa especial, legumes selecionados e feijão fresquinho servidos diariamente.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-dots" id="dotsContainer"></div>
+  </section>
+
+  <section id="pedir" class="order-section">
+    <div class="section-header">
+      <span class="section-subtitle">Praticidade para Você</span>
+      <h2 class="section-title">Escolha como pedir</h2>
+    </div>
+
+    <div class="order-grid">
+      <div class="order-card card-site">
+        <div>
+          <div class="order-card-icon">
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <h3>Fazer pedido</h3>
+          <p>Acesse nosso cardápio digital interativo, escolha os pratos e adicionais com facilidade e acompanhe seu pedido.</p>
+        </div>
+        <a href="https://l.instagram.com/?u=https%3A%2F%2Fapp.anota.ai%2Fm%2FPOaMxCokw%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadEYx14jKCcEPh33y-NbT8wxIEY_wzAaHTau6s0nML3E-zT4j4mxyPCadvIgQ_aem_GiFsozlT6hXEf_F03YeYnA%26utm_id%3D97760_v0_s00_e0_tv3&e=AUBoJi5LjwKGb_Sdo-HCPJzuyoct87itFTIv4JVeaT-jCCT5ntFkMbdNeVqFqyW_5OP6UtQCR7sfvKXOvTQfiHRqryiZsEGoiWIrLuOcWJdnoiKZiTuXMwbHBObqvo1WanPm74A" target="_blank" class="btn-primary online-order-btn">
+          <i class="fa-solid fa-arrow-right"></i> Fazer pedido online
+        </a>
+      </div>
+
+      <div class="order-card card-whats">
+        <div>
+          <div class="order-card-icon">
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+          <h3>Pedido pelo WhatsApp</h3>
+          <p>Prefere atendimento direto? Fale conosco no WhatsApp para tirar dúvidas e realizar seu pedido com nossa equipe.</p>
+        </div>
+        <a href="https://wa.me/5551996445060?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido%20no%20Divina%20Restaurante%20do%20Get%C3%BAlio." target="_blank" class="btn-whats">
+          <i class="fa-brands fa-whatsapp"></i> Pedir pelo WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="depoimentos" class="testimonials-section">
+    <div class="section-header">
+      <span class="section-subtitle">Aprovação do Público</span>
+      <h2 class="section-title">Opiniões de clientes</h2>
+    </div>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="stars">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        </div>
+        <p class="testimonial-text">"Comida maravilhosa e muito bem servida! A marmita de 1kg chega quentinha e com tempero caseiro de verdade."</p>
+        <div class="testimonial-author">Rodrigo Oliveira</div>
+        <div class="testimonial-tag">Pedido via Delivery</div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="stars">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        </div>
+        <p class="testimonial-text">"Melhor buffet de Sapucaia! Atendimento excelente do Getúlio e toda a equipe. Recomendo demais!"</p>
+        <div class="testimonial-author">Mariana Silva</div>
+        <div class="testimonial-tag">Cliente Presencial</div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="stars">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        </div>
+        <p class="testimonial-text">"Faço pedido pelo site quase todos os dias para o almoço do trabalho. Entrega rápida e o bife acebolado é sensacional."</p>
+        <div class="testimonial-author">Carlos Eduardo</div>
+        <div class="testimonial-tag">Pedido via Site</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="localizacao" class="location-section">
+    <div class="section-header">
+      <span class="section-subtitle">Visita Presencial</span>
+      <h2 class="section-title">Venha viver essa experiência presencialmente</h2>
+    </div>
+
+    <div class="location-container">
+      <div class="location-info">
+        <div class="location-card">
+          <h4><i class="fa-solid fa-location-dot"></i> Endereço</h4>
+          <p>Rua Independência, 600 - Bairro Santa Catarina<br>Sapucaia do Sul - RS</p>
+        </div>
+
+        <div class="location-card">
+          <h4><i class="fa-solid fa-utensils"></i> Horário do Buffet Livre</h4>
+          <p>De Segunda a Sábado: das 10:30 às 14:15</p>
+        </div>
+
+        <div class="location-card">
+          <h4><i class="fa-solid fa-phone"></i> WhatsApp & Telefone</h4>
+          <p>(51) 99644-5060</p>
+        </div>
+
+        <a href="https://maps.google.com/?q=Rua+independencia+600+Santa+Catarina+Sapucaia+do+sul" target="_blank" class="btn-primary" style="margin-top: 1rem;">
+          <i class="fa-solid fa-map-location-dot"></i> Como Chegar
+        </a>
+      </div>
+
+      <div class="location-image">
+        <img src="Localizacao.png" alt="Mapa de Localização Divina Restaurante" onerror="this.onerror=null; this.src='Localizacao.jpg';">
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-banner">
+    <h2>Seu próximo sabor favorito está aqui</h2>
+    <p>Bateu a fome? Peça agora mesmo pelo site ou venha almoçar com a gente!</p>
+    <div class="cta-buttons">
+      <a href="https://l.instagram.com/?u=https%3A%2F%2Fapp.anota.ai%2Fm%2FPOaMxCokw%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadEYx14jKCcEPh33y-NbT8wxIEY_wzAaHTau6s0nML3E-zT4j4mxyPCadvIgQ_aem_GiFsozlT6hXEf_F03YeYnA%26utm_id%3D97760_v0_s00_e0_tv3&e=AUBoJi5LjwKGb_Sdo-HCPJzuyoct87itFTIv4JVeaT-jCCT5ntFkMbdNeVqFqyW_5OP6UtQCR7sfvKXOvTQfiHRqryiZsEGoiWIrLuOcWJdnoiKZiTuXMwbHBObqvo1WanPm74A" target="_blank" class="btn-white online-order-btn">
+        <i class="fa-solid fa-basket-shopping"></i> Fazer pedido online
+      </a>
+      <a href="https://wa.me/5551996445060?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido%20no%20Divina%20Restaurante%20do%20Get%C3%BAlio." target="_blank" class="btn-whats">
+        <i class="fa-brands fa-whatsapp"></i> Falar pelo WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Divina Restaurante do Getúlio</h4>
+        <p>Tradição, sabor caseiro e qualidade no seu almoço diário em Sapucaia do Sul.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Links Rápidos</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Nosso Restaurante</a></li>
+          <li><a href="#pratos">Pratos</a></li>
+          <li><a href="#pedir">Como Pedir</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Pedidos & Contato</h4>
+        <ul>
+          <li><a href="https://l.instagram.com/?u=https%3A%2F%2Fapp.anota.ai%2Fm%2FPOaMxCokw%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadEYx14jKCcEPh33y-NbT8wxIEY_wzAaHTau6s0nML3E-zT4j4mxyPCadvIgQ_aem_GiFsozlT6hXEf_F03YeYnA%26utm_id%3D97760_v0_s00_e0_tv3&e=AUBoJi5LjwKGb_Sdo-HCPJzuyoct87itFTIv4JVeaT-jCCT5ntFkMbdNeVqFqyW_5OP6UtQCR7sfvKXOvTQfiHRqryiZsEGoiWIrLuOcWJdnoiKZiTuXMwbHBObqvo1WanPm74A" class="online-order-btn" target="_blank">Cardápio Online</a></li>
+          <li><a href="https://wa.me/5551996445060" target="_blank">WhatsApp (51) 99644-5060</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; Divina Restaurante do Getúlio. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Navigation Toggle
+    const menuToggle = document.getElementById('menuToggle');
+    const navbar = document.getElementById('navbar');
+
+    menuToggle.addEventListener('click', () => {
+      navbar.classList.toggle('active');
+    });
+
+    // Carousel functionality
+    const track = document.getElementById('track');
+    const slides = Array.from(track.children);
+    const nextBtn = document.getElementById('nextBtn');
+    const prevBtn = document.getElementById('prevBtn');
+    const dotsContainer = document.getElementById('dotsContainer');
+
+    let currentIndex = 0;
+
+    // Build indicator dots
+    slides.forEach((_, index) => {
+      const dot = document.createElement('div');
+      dot.classList.add('dot');
+      if (index === 0) dot.classList.add('active');
+      dot.addEventListener('click', () => goToSlide(index));
+      dotsContainer.appendChild(dot);
+    });
+
+    const dots = Array.from(dotsContainer.children);
+
+    function updateCarousel() {
+      track.style.transform = `translateX(-${currentIndex * 100}%)`;
+      dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === currentIndex);
+      });
+    }
+
+    function goToSlide(index) {
+      currentIndex = index;
+      updateCarousel();
+    }
+
+    nextBtn.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % slides.length;
+      updateCarousel();
+    });
+
+    prevBtn.addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      updateCarousel();
+    });
+
+    // Touch swipe support for mobile
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    track.addEventListener('touchstart', e => {
+      touchStartX = e.changedTouches[0].screenX;
+    }, false);
+
+    track.addEventListener('touchend', e => {
+      touchEndX = e.changedTouches[0].screenX;
+      handleSwipe();
+    }, false);
+
+    function handleSwipe() {
+      if (touchEndX < touchStartX - 40) {
+        currentIndex = (currentIndex + 1) % slides.length;
+        updateCarousel();
+      }
+      if (touchEndX > touchStartX + 40) {
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+        updateCarousel();
+      }
+    }
+
+    // Auto-advance carousel every 5 seconds
+    setInterval(() => {
+      currentIndex = (currentIndex + 1) % slides.length;
+      updateCarousel();
+    }, 5000);
+
+    /* =========================================================
+       DYNAMIC OPERATING HOURS & ORDER BUTTON LOCK LOGIC
+       Hours: 10:30 to 14:15
+       ========================================================= */
+
+    function checkOperatingStatus() {
+      const now = new Date();
+      const hours = now.getHours();
+      const minutes = now.getMinutes();
+      const currentTimeInMinutes = hours * 60 + minutes;
+
+      const openTimeInMinutes = 10 * 60 + 30; // 10:30 = 630 min
+      const closeTimeInMinutes = 14 * 60 + 15; // 14:15 = 855 min
+
+      return (currentTimeInMinutes >= openTimeInMinutes && currentTimeInMinutes <= closeTimeInMinutes);
+    }
+
+    function handleDisabledOrderClick(e) {
+      e.preventDefault();
+      showToastNotification();
+    }
+
+    function showToastNotification() {
+      const toast = document.getElementById('toastMessage');
+      toast.classList.add('active');
+      setTimeout(() => {
+        toast.classList.remove('active');
+      }, 3500);
+    }
+
+    function updateOrderButtonsState() {
+      const isOpen = checkOperatingStatus();
+      const onlineOrderButtons = document.querySelectorAll('.online-order-btn');
+
+      if (isOpen) {
+        onlineOrderButtons.forEach(btn => {
+          btn.classList.remove('order-disabled');
+          btn.removeEventListener('click', handleDisabledOrderClick);
+        });
+      } else {
+        onlineOrderButtons.forEach(btn => {
+          btn.classList.add('order-disabled');
+          btn.addEventListener('click', handleDisabledOrderClick);
+        });
+      }
+    }
+
+    // Initialize status on load and re-check every minute
+    window.addEventListener('DOMContentLoaded', () => {
+      updateOrderButtonsState();
+      setInterval(updateOrderButtonsState, 60000);
+    });
+  </script>
+</body>
+</html>
